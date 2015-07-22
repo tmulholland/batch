@@ -1,0 +1,50 @@
+hadd -f RA2bTrees/SMS-T1tttt-1200-800-Phys14.root treeMakerSplit/SMS-T1tttt_2J_mGl-1200_mLSP-800_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/SMS-T1bbbb-1500-100-Phys14.root treeMakerSplit/SMS-T1bbbb_2J_mGl-1500_mLSP-100_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/SMS-T1bbbb-1000-900-Phys14.root treeMakerSplit/SMS-T1bbbb_2J_mGl-1000_mLSP-900_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/SMS-T1qqqq-1400-100-Phys14.root treeMakerSplit/SMS-T1qqqq_2J_mGl-1400_mLSP-100_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/SMS-T1qqqq-1000-800-Phys14.root treeMakerSplit/SMS-T1qqqq_2J_mGl-1000_mLSP-800_Tune4C_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/TTJets-MSDecaysCKM-Phys14.root treeMakerSplit/TTJets_MSDecaysCKM_central_Tune4C_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/TTZJets-Phys14.root treeMakerSplit/TTZJets_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/TTWJets-Phys14.root treeMakerSplit/TTWJets_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/TTbarH-Phys14.root treeMakerSplit/TTbarH_M-125_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/TToLeptons_t-channel-Phys14.root treeMakerSplit/TToLeptons_t-channel_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/TToLeptons_s-channel-Phys14.root treeMakerSplit/TToLeptons_s-channel_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/TBarToLeptons_s-channel-Phys14.root treeMakerSplit/TBarToLeptons_s-channel_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/TBarToLeptons_t-channel-Phys14.root treeMakerSplit/TBarToLeptons_t-channel_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/T_tW-channel-Phys14.root treeMakerSplit/T_tW-channel_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/Tbar_tW-channel-Phys14.root treeMakerSplit/Tbar_tW-channel_Tune4C_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/WJets-100to200-Phys14.root treeMakerSplit/WJetsToLNu_HT-100to200_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/WJets-200to400-Phys14.root treeMakerSplit/WJetsToLNu_HT-200to400_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/WJets-400to600-Phys14.root treeMakerSplit/WJetsToLNu_HT-400to600_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/WJets-600toInf-Phys14.root treeMakerSplit/WJetsToLNu_HT-600toInf_Tune4C_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/GJets-100to200-Phys14.root treeMakerSplit/GJets_HT-100to200_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/GJets-200to400-Phys14.root treeMakerSplit/GJets_HT-200to400_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/GJets-400to600-Phys14.root treeMakerSplit/GJets_HT-400to600_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/GJets-600toInf-Phys14.root treeMakerSplit/GJets_HT-600toInf_Tune4C_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/ZJets-100to200-Phys14.root treeMakerSplit/ZJetsToNuNu_HT-100to200_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/ZJets-200to400-Phys14.root treeMakerSplit/ZJetsToNuNu_HT-200to400_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/ZJets-400to600-Phys14.root treeMakerSplit/ZJetsToNuNu_HT-400to600_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/ZJets-600toInf-Phys14.root treeMakerSplit/ZJetsToNuNu_HT-600toInf_Tune4C_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/DYJets-100to200-Phys14.root treeMakerSplit/DYJetsToLL_M-50_HT-100to200_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/DYJets-200to400-Phys14.root treeMakerSplit/DYJetsToLL_M-50_HT-200to400_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/DYJets-400to600-Phys14.root treeMakerSplit/DYJetsToLL_M-50_HT-400to600_Tune4C_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/DYJets-600toInf-Phys14.root treeMakerSplit/DYJetsToLL_M-50_HT-600toInf_Tune4C_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/QCD-250to500-Phys14.root treeMakerSplit/QCD_HT-250To500_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/QCD-500to1000-Phys14.root treeMakerSplit/QCD_HT-500To1000_13TeV-Phys14DR-PU20bx25-*
+hadd -f RA2bTrees/QCD-1000toInf-Phys14.root treeMakerSplit/QCD_HT-1000ToInf_13TeV-Phys14DR-PU20bx25-*
+
+hadd -f RA2bTrees/WH_HToBB_WToLNu-Phys14.root treeMakerSplit/WH_HToBB_WToLNu_M-125_13TeV-Phys14DR-PU20bx25-1-*
+hadd -f RA2bTrees/ZH_HToBB_WToLNu-Phys14.root treeMakerSplit/ZH_HToBB_WToLNu_M-125_13TeV-Phys14DR-PU20bx25-1-*
+
+hadd -f RA2bTrees/HTMHT-Run2015B-PromptReco-v1.root treeMakerSplit/HTMHT-Run2015B-PromptReco-v1-*
+hadd -f RA2bTrees/EGamma-Run2015B-PromptReco-v1.root treeMakerSplit/EGamma-Run2015B-PromptReco-v1-*
+hadd -f RA2bTrees/DoubleMuon-Run2015B-PromptReco-v1.root treeMakerSplit/DoubleMuon-Run2015B-PromptReco-v1-*
+hadd -f RA2bTrees/DoubleEG-Run2015B-PromptReco-v1.root treeMakerSplit/DoubleEG-Run2015B-PromptReco-v1-*

@@ -1,0 +1,74 @@
+
+#Phys14
+./batch/scripts/makeTreesBatch.csh SMS-T1tttt_2J_mGl-1200_mLSP-800 Phys14 PU20bx25 1 False
+./batch/scripts/makeTreesBatch.csh SMS-T1tttt_2J_mGl-1500 Phys14 PU20bx25 1 False
+./batch/scripts/makeTreesBatch.csh SMS-T1bbbb_2J_mGl-1000 Phys14 PU20bx25 1 False
+./batch/scripts/makeTreesBatch.csh SMS-T1bbbb_2J_mGl-1500 Phys14 PU20bx25 1 False
+./batch/scripts/makeTreesBatch.csh SMS-T1qqqq_2J_mGl-1400 Phys14 PU20bx25 1 False
+./batch/scripts/makeTreesBatch.csh SMS-T1qqqq_2J_mGl-1000 Phys14 PU20bx25 1 False
+
+./batch/scripts/makeTreesBatch.csh TTJets_MSDecaysCKM Phys14 PU20bx25 10 False
+
+./batch/scripts/makeTreesBatch.csh QCD_HT-250To500 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh QCD_HT-500 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh QCD_HT-1000 Phys14 PU20bx25 10 False
+
+./batch/scripts/makeTreesBatch.csh TBarToLeptons_s Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh TBarToLeptons_t Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh TToLeptons_s Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh TToLeptons_t Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh T_tW-channel Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh Tbar_tW Phys14 PU20bx25 10 False
+
+./batch/scripts/makeTreesBatch.csh TTWJets Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh TTZJets Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh TTbarH_M Phys14 PU20bx25 10 False
+
+./batch/scripts/makeTreesBatch.csh WH_HToBB_WToLNu Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh ZH_HToBB_WToLNu_M Phys14 PU20bx25 10 False
+
+./batch/scripts/makeTreesBatch.csh GJets_HT-100 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh GJets_HT-200 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh GJets_HT-400 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh GJets_HT-600 Phys14 PU20bx25 10 False
+
+./batch/scripts/makeTreesBatch.csh ZJetsToNuNu_HT-100 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh ZJetsToNuNu_HT-200 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh ZJetsToNuNu_HT-400 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh ZJetsToNuNu_HT-600 Phys14 PU20bx25 10 False
+
+./batch/scripts/makeTreesBatch.csh DYJetsToLL_M-50_HT-100 Phys14 PU20bx25 10 True
+./batch/scripts/makeTreesBatch.csh DYJetsToLL_M-50_HT-200 Phys14 PU20bx25 10 True
+./batch/scripts/makeTreesBatch.csh DYJetsToLL_M-50_HT-400 Phys14 PU20bx25 10 True
+./batch/scripts/makeTreesBatch.csh DYJetsToLL_M-50_HT-600 Phys14 PU20bx25 10 True
+
+./batch/scripts/makeTreesBatch.csh WJetsToLNu_HT-100 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh WJetsToLNu_HT-200 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh WJetsToLNu_HT-400 Phys14 PU20bx25 10 False
+./batch/scripts/makeTreesBatch.csh WJetsToLNu_HT-600 Phys14 PU20bx25 10 False
+
+#RunII Spring15
+./batch/scripts/makeTreesBatch.csh ZJetsToNuNu_HT-100 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh ZJetsToNuNu_HT-200 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh ZJetsToNuNu_HT-400 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh ZJetsToNuNu_HT-600 RunIISpring15 Asympt25ns 10 False
+
+./batch/scripts/makeTreesBatch.csh WJetsToLNu_HT-100 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh WJetsToLNu_HT-200 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh WJetsToLNu_HT-400 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh WJetsToLNu_HT-600 RunIISpring15 Asympt25ns 10 False
+
+./batch/scripts/makeTreesBatch.csh GJets_HT-400 RunIISpring15 Asympt25ns 10 True
+./batch/scripts/makeTreesBatch.csh GJets_HT-600 RunIISpring15 Asympt25ns 10 True
+
+#no cleaning ttbar
+./batch/scripts/makeTreesBatch.csh TTJets_TuneCUETP8M1 RunIISpring15 Asympt25ns 10 False
+#cleaning ttbar
+./batch/scripts/makeTreesBatch.csh TTJets_TuneCUETP8M1 RunIISpring15 Asympt25ns 10 False
+
+
+#Data
+./batch/scripts/makeTreesBatch.csh HTMHT Run2015B PromptReco-v1 1 False
+./batch/scripts/makeTreesBatch.csh EGamma Run2015B PromptReco-v1 1 True
+./batch/scripts/makeTreesBatch.csh DoubleMuon Run2015B PromptReco-v1 1 True
+./batch/scripts/makeTreesBatch.csh DoubleEG Run2015B PromptReco-v1 1 True
