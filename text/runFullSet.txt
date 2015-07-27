@@ -61,10 +61,24 @@
 ./batch/scripts/makeTreesBatch.csh GJets_HT-400 RunIISpring15 Asympt25ns 10 True
 ./batch/scripts/makeTreesBatch.csh GJets_HT-600 RunIISpring15 Asympt25ns 10 True
 
+./batch/scripts/makeTreesBatch.csh QCD_Pt_80to120 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_120to170 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_170to300 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_300to470 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_470to600 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_600to800 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_800to1000 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_1000to1400 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_1400to1800 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_1800to2400 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_2400to3200 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh QCD_Pt_3200toInf RunIISpring15 Asympt25ns 10 False
+
+
 #no cleaning ttbar
 ./batch/scripts/makeTreesBatch.csh TTJets_TuneCUETP8M1 RunIISpring15 Asympt25ns 10 False
 #cleaning ttbar
-./batch/scripts/makeTreesBatch.csh TTJets_TuneCUETP8M1 RunIISpring15 Asympt25ns 10 False
+./batch/scripts/makeTreesBatch.csh TTJets_TuneCUETP8M1 RunIISpring15 Asympt25ns 10 True
 
 
 #Data
@@ -72,3 +86,4 @@
 ./batch/scripts/makeTreesBatch.csh EGamma Run2015B PromptReco-v1 1 True
 ./batch/scripts/makeTreesBatch.csh DoubleMuon Run2015B PromptReco-v1 1 True
 ./batch/scripts/makeTreesBatch.csh DoubleEG Run2015B PromptReco-v1 1 True
+

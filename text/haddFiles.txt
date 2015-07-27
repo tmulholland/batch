@@ -44,7 +44,35 @@ hadd -f RA2bTrees/QCD-1000toInf-Phys14.root treeMakerSplit/QCD_HT-1000ToInf_13Te
 hadd -f RA2bTrees/WH_HToBB_WToLNu-Phys14.root treeMakerSplit/WH_HToBB_WToLNu_M-125_13TeV-Phys14DR-PU20bx25-1-*
 hadd -f RA2bTrees/ZH_HToBB_WToLNu-Phys14.root treeMakerSplit/ZH_HToBB_WToLNu_M-125_13TeV-Phys14DR-PU20bx25-1-*
 
+
+hadd -f RA2bTrees/TTJets-RunIISpring15.root treeMakerSplit/TTJets_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+
+
 hadd -f RA2bTrees/HTMHT-Run2015B-PromptReco-v1.root treeMakerSplit/HTMHT-Run2015B-PromptReco-v1-*
 hadd -f RA2bTrees/EGamma-Run2015B-PromptReco-v1.root treeMakerSplit/EGamma-Run2015B-PromptReco-v1-*
 hadd -f RA2bTrees/DoubleMuon-Run2015B-PromptReco-v1.root treeMakerSplit/DoubleMuon-Run2015B-PromptReco-v1-*
 hadd -f RA2bTrees/DoubleEG-Run2015B-PromptReco-v1.root treeMakerSplit/DoubleEG-Run2015B-PromptReco-v1-*
+
+hadd -f RA2bTrees/WJets-100to200-RunIISpring15.root treeMakerSplit/WJetsToLNu_HT-100to200_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/WJets-200to400-RunIISpring15.root treeMakerSplit/WJetsToLNu_HT-200to400_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/WJets-400to600-RunIISpring15.root treeMakerSplit/WJetsToLNu_HT-400to600_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2_*
+hadd -f RA2bTrees/WJets-600toInf-RunIISpring15.root treeMakerSplit/WJetsToLNu_HT-600toInf_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2_*
+
+hadd -f RA2bTrees/GJets-600toInf-RunIISpring15.root treeMakerSplit/GJets_HT-600toInf_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9*
+hadd -f RA2bTrees/GJets-400to600-RunIISpring15.root treeMakerSplit/GJets_HT-400to600_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-*
+hadd -f RA2bTrees/GJets-200to400-RunIISpring15.root treeMakerSplit/GJets_HT-200to600_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2*
+hadd -f RA2bTrees/GJets-100to200-RunIISpring15.root treeMakerSplit/GJets_HT-100_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2*
+
+hadd -f RA2bTrees/QCD_Pt_80to120-RunIISpring15.root treeMakerSplit/QCD_Pt_80to120_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2*
+hadd -f RA2bTrees/QCD_Pt_120to170-RunIISpring15.root treeMakerSplit/QCD_Pt_120to170_TuneCUETP8M1_13TeV-RunIISpring15DR74-Asympt25ns_MCRUN2*
+hadd -f RA2bTrees/QCD_Pt_170to300-RunIISpring15.root treeMakerSplit/QCD_Pt_170to300_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
+hadd -f RA2bTrees/QCD_Pt_300to470-RunIISpring15.root treeMakerSplit/QCD_Pt_300to470_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/QCD_Pt_470to600-RunIISpring15.root treeMakerSplit/QCD_Pt_470to600_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
+hadd -f RA2bTrees/QCD_Pt_600to800-RunIISpring15.root treeMakerSplit/QCD_Pt_600to800_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v3-*
+hadd -f RA2bTrees/QCD_Pt_800to1000-RunIISpring15.root treeMakerSplit/QCD_Pt_800to1000_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
+hadd -f RA2bTrees/QCD_Pt_1000to1400-RunIISpring15.root treeMakerSplit/QCD_Pt_1000to1400_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/QCD_Pt_1400to1800-RunIISpring15.root treeMakerSplit/QCD_Pt_1400to1800_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/QCD_Pt_1800to2400-RunIISpring15.root treeMakerSplit/QCD_Pt_1800to2400_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/QCD_Pt_2400to3200-RunIISpring15.root treeMakerSplit/QCD_Pt_2400to3200_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/QCD_Pt_3200toInf-RunIISpring15.root treeMakerSplit/QCD_Pt_3200toInf_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+
