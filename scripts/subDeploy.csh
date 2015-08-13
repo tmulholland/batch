@@ -31,7 +31,7 @@ mkdir $TMPDIR/splitFiles/
 
 @ i = 1
 foreach file (`cat $fileList`)  
-    cmsRun AllHadronicSUSY/TreeMaker/test/runMakeTreeFromMiniAOD_cfg.py global_tag=$g_tag geninfo=$gen_info tagname="$tag_name" doZinv=$doZ dataset="$wheresData/$file" outfile="$TMPDIR/splitFiles/$FileBase-$subList-$i" $json >&! $TMPDIR/$FileBase-$subList-$i.log
+    cmsRun TreeMaker/TreeMaker/test/runMakeTreeFromMiniAOD_cfg.py global_tag=$g_tag geninfo=$gen_info tagname="$tag_name" doZinv=$doZ dataset="$wheresData/$file" outfile="$TMPDIR/splitFiles/$FileBase-$subList-$i" $json >&! $TMPDIR/$FileBase-$subList-$i.log
     @ i += 1
 end
 
