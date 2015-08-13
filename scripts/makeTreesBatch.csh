@@ -8,6 +8,8 @@ setenv doZ $5
 
 setenv FileList `ls batch/text/fileLists/*.txt | grep $TAG1 | grep $TAG2 | grep $TAG3`
 
+echo $FileList
+
 setenv dataType `head -1 $FileList | sed 's/\/store\///' | sed -e 's/\/.*//'`
 setenv campaign `head -1 $FileList | sed 's/\/store\///' | sed -e 's/'$dataType'\///' | sed -e 's/\/.*//'`
 setenv sample `head -1 $FileList | sed 's/store\///' | sed -e 's/'$dataType'\///' | sed -e 's/\/'$campaign'\///' | sed -e 's/\/.*//'`

@@ -76,3 +76,10 @@ hadd -f RA2bTrees/QCD_Pt_1800to2400-RunIISpring15.root treeMakerSplit/QCD_Pt_180
 hadd -f RA2bTrees/QCD_Pt_2400to3200-RunIISpring15.root treeMakerSplit/QCD_Pt_2400to3200_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
 hadd -f RA2bTrees/QCD_Pt_3200toInf-RunIISpring15.root treeMakerSplit/QCD_Pt_3200toInf_TuneCUETP8M1_13TeV_pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
 
+hadd -f RA2bTrees/QCD-200to300-RunIISpring15.root treeMakerSplit/QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
+hadd -f RA2bTrees/QCD-300to500-RunIISpring15.root treeMakerSplit/QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
+hadd -f RA2bTrees/QCD-500to700-RunIISpring15.root treeMakerSplit/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/QCD-700to1000-RunIISpring15.root treeMakerSplit/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/QCD-1000to1500-RunIISpring15.root treeMakerSplit/QCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
+hadd -f RA2bTrees/QCD-1500to2000-RunIISpring15.root treeMakerSplit/QCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/QCD-2000toInf-RunIISpring15.root treeMakerSplit/QCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
