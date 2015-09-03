@@ -33,6 +33,15 @@ else if($campaign == Run2015B) then
     setenv resid ""
 #    setenv jec jecfile=batch/jec/Summer15_50nsV4_DATA
     setenv jec ""
+else if($campaign == Run2015C) then
+    setenv g_tag 74X_dataRun2_Prompt_v1
+    setenv gen_info False
+    setenv tag_name RECO
+    setenv json jsonfile=batch/json/useme.json
+#    setenv resid residual=True
+    setenv resid ""
+#    setenv jec jecfile=batch/jec/Summer15_50nsV4_DATA
+    setenv jec ""
 endif
     
 cp /batch/$hostName/x509up_u504 /tmp/x509up_u504
