@@ -91,3 +91,5 @@
 ./batch/scripts/makeTreesBatch.csh DYJetsToLL_M-50_HT-200 RunIISpring15 Asympt25ns 1 True
 ./batch/scripts/makeTreesBatch.csh DYJetsToLL_M-50_HT-400 RunIISpring15 Asympt25ns 1 True
 ./batch/scripts/makeTreesBatch.csh DYJetsToLL_M-50_HT-600 RunIISpring15 Asympt25ns 1 True
+./batch/scripts/makeTreesBatch.csh DoubleEG Run2015C PromptReco-v1 3 True
+./batch/scripts/makeTreesBatch.csh DoubleMuon Run2015C PromptReco-v1 3 True

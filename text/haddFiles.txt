@@ -89,7 +89,9 @@ hadd -f RA2bTrees/DYJets-100to200-RunIISpring15.root treeMakerSplit/DYJetsToLL_M
 hadd -f RA2bTrees/DYJets-200to400-RunIISpring15.root treeMakerSplit/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
 hadd -f RA2bTrees/DYJets-400to600-RunIISpring15.root treeMakerSplit/DYJetsToLL_M-50_HT-400to600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
 hadd -f RA2bTrees/DYJets-600toInf-RunIISpring15.root treeMakerSplit/DYJetsToLL_M-50_HT-600toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v2-*
+hadd -f RA2bTrees/ZJets-100to200-RunIISpring15.root treeMakerSplit/ZJetsToNuNu_HT-400To600_13TeV-madgraph-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9*
 hadd -f RA2bTrees/ZJets-200to400-RunIISpring15.root treeMakerSplit/ZJetsToNuNu_HT-200To400_13TeV-madgraph-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
-hadd -f RA2bTrees/ZJets-400to600-RunIISpring15.root treeMakerSplit/ZJetsToNuNu_HT-400To600_13TeV-madgraph-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-
 hadd -f RA2bTrees/ZJets-400to600-RunIISpring15.root treeMakerSplit/ZJetsToNuNu_HT-400To600_13TeV-madgraph-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
 hadd -f RA2bTrees/ZJets-600toInf-RunIISpring15.root treeMakerSplit/ZJetsToNuNu_HT-600ToInf_13TeV-madgraph-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/DoubleEG-Run2015C-PromptReco-v1.root treeMakerSplit/DoubleEG-Run2015C-PromptReco-v1-*
+hadd -f RA2bTrees/DoubleMuon-Run2015C-PromptReco-v1.root treeMakerSplit/DoubleMuon-Run2015C-PromptReco-v1-*
