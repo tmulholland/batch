@@ -16,6 +16,8 @@ else if($campaign == Run2015B) then
     setenv scenario re2015B
 else if($campaign == Run2015C) then
     setenv scenario 2015C
+else if($campaign == Run2015D) then
+    setenv scenario 2015D
 endif
     
 cp /batch/$hostName/x509up_u504 /tmp/x509up_u504

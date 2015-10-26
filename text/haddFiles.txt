@@ -96,3 +96,5 @@ hadd -f RA2bTrees/ZJets-600toInf-RunIISpring15.root treeMakerSplit/ZJetsToNuNu_H
 hadd -f RA2bTrees/DoubleEG-Run2015C-PromptReco-v1.root treeMakerSplit/DoubleEG-Run2015C-PromptReco-v1-*
 hadd -f RA2bTrees/DoubleMuon-Run2015C-PromptReco-v1.root treeMakerSplit/DoubleMuon-Run2015C-PromptReco-v1-*
 hadd -f RA2bTrees/DYJets-Zpt150toInf-RunIISpring15.root treeMakerSplit/DYJetsToLL_M-50_Zpt-150toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8-RunIISpring15DR74-Asympt25ns_MCRUN2_74_V9-v1-*
+hadd -f RA2bTrees/DoubleEG-Run2015D-PromptReco-v3.root treeMakerSplit/DoubleEG-Run2015D-PromptReco-v3-*
+hadd -f RA2bTrees/DoubleMuon-Run2015D-PromptReco-v3.root treeMakerSplit/DoubleMuon-Run2015D-PromptReco-v3-*
